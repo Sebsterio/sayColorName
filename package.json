@@ -1,7 +1,8 @@
 {
-	"name": "sayColorName",
+	"name": "say-color-name",
 	"version": "1.0.0",
 	"description": "Speech recognition code challenge",
+	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -10,7 +11,7 @@
 		"url": "git+https://github.com/Sebsterio/sayColorName.git"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Sebastian Rosloniec",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/Sebsterio/sayColorName/issues"
