@@ -1,0 +1,69 @@
+:root {
+	--font-size: calc(1.6vw + 1.6vh);
+	--bg-color: #8e3eb4;
+	--text-color: #6c2e89;
+	--active-color: #8e3eb4;
+}
+
+html {
+	font-family: "helvetica";
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.bg,
+.message-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.bg {
+	background: var(--bg-color);
+	z-index: -1;
+}
+/* --------------- Colors -------------- */
+
+.colors-container {
+	width: 100vw;
+	text-align: justify;
+	pointer-events: none;
+}
+
+.color {
+	color: var(--text-color);
+	font-size: var(--font-size);
+	font-weight: bolder;
+}
+
+.color.active {
+	color: var(--active-color);
+	transform: scale(1.2);
+}
+
+/* --------------- Message -------------- */
+
+.message-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: opacity 2000ms ease;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.message {
+	padding: 16px;
+	background: rgba(255, 255, 255, 0.6);
+	font-size: 20px;
+	box-shadow: inset 0 0 3px 0 rgba(255, 255, 255, 0.5);
+}
