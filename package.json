@@ -1,20 +1,19 @@
 {
-  "name": "sayColorName",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sebsterio/sayColorName.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sebsterio/sayColorName/issues"
-  },
-  "homepage": "https://github.com/Sebsterio/sayColorName#readme"
+	"name": "sayColorName",
+	"version": "1.0.0",
+	"description": "Speech recognition code challenge",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Sebsterio/sayColorName.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Sebsterio/sayColorName/issues"
+	},
+	"homepage": "https://github.com/Sebsterio/sayColorName#readme"
 }
